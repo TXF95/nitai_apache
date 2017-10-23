@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>注册</title>
+    <meta name="content-type"; charset="utf-8">
+</head>
+<body>
+	<div class="content" align="center">
+		<!--头部-->
+		<div class="header">
+		<h1>注册界面</h1>
+		</div>
+		<!--中部-->
+		<div class="middle">
+			<form action="./php/register.php" method="post">
+				<p><input id="user" name="user" type="text" placeholder="用户名"/></p>
+				<p><input id="psd1" name="psd1" type="password" placeholder="密码"/></p>
+            	<p><input id="psd2" name="psd2" type="password" placeholder="验证密码"/></p>
+           		<p><input id="eml" name="eml" type="email" placeholder="邮箱"/></p>
+            	<p><input id="sbt" name="sbt" type="submit" placeholder="提交"/></p>
+				<tr>
+					<td colspan="2" align="center">
+						如果已有账号，快去<a href="./php/login.php">登录</a>吧！
+					</td>
+					<tr>
+			</form>
+</body>
+</html>
